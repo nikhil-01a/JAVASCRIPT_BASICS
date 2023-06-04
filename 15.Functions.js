@@ -30,6 +30,7 @@ function printThanks()
     console.log("Thanks for shopping");
     console.log("Discounts expire Dec 1!");
 }
+console.log(typeof printThanks); // confirming its a function
 function computePrice(cost, discount)
 {
     let reduction = cost*discount;
