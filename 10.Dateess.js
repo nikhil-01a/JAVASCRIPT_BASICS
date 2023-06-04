@@ -16,7 +16,6 @@ console.log(win95Launch);
 console.log(now);
 
 /////// SETTING VALUES //////////
-
 const now1 = new Date();
 now1.setFullYear(2014); // sets year
 now1.setMonth(3); // sets month as 4
@@ -24,11 +23,9 @@ now1.setDate(4); // sets day
 now1.setHours(4);// 24 hour clock
 now1.setMinutes(24);
 now1.setSeconds(46);
-
 console.log(now1);
 
 ////// GETTING VALUES ///////////
-
 // all of the set functions have an equivalent get (obviously)
 console.log(now.getMonth()); // (jan = 0)
 console.log(now.getTime()); //milliseconds since 1 jan 1970

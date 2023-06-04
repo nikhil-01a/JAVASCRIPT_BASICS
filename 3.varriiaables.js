@@ -1,16 +1,10 @@
-// Three ways to declare variables
+// Three ways to declare variables: var, let, const
 var one = 1;
-// Function scoped
-// Avaliable even before you have declared it
-// mutable inside the scope: can be reassigned
+// Function scoped, Avaliable even before you have declared it, mutable inside the scope: can be reassigned
 let two = 2;
-// block scoped.
-// used only after declaration
-// mutable inside the block scope: can be reassigned
+// block scoped, used only after declaration, mutable inside the block scope: can be reassigned
 const three = 3;
-// block scoped
-// used only after declaration
-// immutable:  cannot be reassigned. 
+// block scoped, used only after declaration, immutable:  cannot be reassigned. 
 
 /* What to use when
                         const: by default (often) [CANNOT BE CHANGED]
@@ -23,7 +17,7 @@ console.log(hello); // This gives output as undefined because the hello variable
 var hello = "Hello"; // var meaning the hello keyword is present everywhere
 //console.log(ds); // This gives a runtime error with random string ds.
 
-//Example let (Block scoped)
+//Example let 
 hello = "HelloWorld";
 console.log(hello);
 if(true)
@@ -40,4 +34,3 @@ if(true)
 {
     //nam = 'test'; // assignment to const variable error
 }
-
