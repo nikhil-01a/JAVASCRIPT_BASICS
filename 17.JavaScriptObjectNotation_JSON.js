@@ -47,7 +47,7 @@ console.log(bookJSON);
 /////////////////////// OBJECT/COLLECTION - JSON CONVERSION //////////////////////
 
 // Serialize a JavaScript Object into an equivalent text string
-const book1Obj = {title:"Becoming",author:"George Orwell",isAvailable: false}; // you can also call it JSON Format text
+const book1Obj = new Object({title:"Becoming",author:"George Orwell",isAvailable: false}); // you can also call it JSON Format text
 var book1json = JSON.stringify(book1Obj);
 console.log(book1json);
 
